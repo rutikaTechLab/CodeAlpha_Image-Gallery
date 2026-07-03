@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Image Gallery</title>
+<link rel="stylesheet" href="style.css">
+
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+rel="stylesheet">
+</head>
+
+<body>
+<header>
+<h1>Image Gallery</h1>
+</header>
+<div class="filter-buttons">
+
+<button class="active" data-filter="all">All</button>
+<button data-filter="nature">Nature</button>
+<button data-filter="city">City</button>
+<button data-filter="animals">Animals</button>
+<button data-filter="tech">Technology</button>
+</div>
+
+<div class="gallery">
+<div class="image nature">
+<img src="images/nature 1.jpg">
+</div>
+
+<div class="image nature">
+<img src="images/nature 2.jpg">
+</div>
+
+<div class="image city">
+<img src="images/city 1.jpg">
+</div>
+
+<div class="image city">
+<img src="images/city 2.jpg">
+</div>
+
+<div class="image animals">
+<img src="images/animal 1.jpg">
+</div>
+
+<div class="image animals">
+<img src="images/animal 2.jpg">
+</div>
+
+<div class="image tech">
+<img src="images/tech 1.jpg">
+</div>
+
+<div class="image tech">
+<img src="images/tech 2.jpg">
+</div>
+</div>
+
+
+<div class="lightbox">
+<span class="close">&times;</span>
+<i class="fa-solid fa-angle-left prev"></i>
+<img class="lightbox-image">
+<i class="fa-solid fa-angle-right next"></i>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
